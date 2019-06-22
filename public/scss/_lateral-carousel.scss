@@ -1,0 +1,29 @@
+div.lateral-carousel {
+  overflow-y: auto;
+  white-space: nowrap;
+
+  scroll-snap-type: x mandatory;
+
+  /* This makes it seem like the carousel expands beyond the content area out of
+  the screen or below the sidebar. */
+  margin: 0 -2em;
+  padding: 0 2em;
+
+  div.item {
+    display: inline-block;
+    width: 100%; vertical-align: top;
+    box-sizing: border-box;
+
+    white-space: normal;
+
+    scroll-snap-align: center;
+
+    &:first-child {
+      scroll-snap-align: left;
+    } 
+
+    &:last-child {
+      scroll-snap-align: right;
+    } 
+  }
+}
