@@ -18,3 +18,7 @@ github:
 
 sass:
   sass_dir: public/scss
+
+# Site Variables
+title: Dipanjan's Blog
+tagline: Write infrequently about everything.
