@@ -15,13 +15,17 @@ p {
   margin-top: 0.25em;
   margin-bottom: 1.75em;
 
+  &:first-of-type {
+    margin-top: 2em;
+  }
+
   & + ol, ul {
     margin-top: -1.5em; // To offset margin by paragraphs.
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 900;
+  font-weight: 800;
 }
 
 h1 {

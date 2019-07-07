@@ -7,11 +7,12 @@ div.lateral-carousel {
   /* This makes it seem like the carousel expands beyond the content area out of
   the screen or below the sidebar. */
   margin: 0 -2em;
-  padding: 0 2em;
+  padding: 0 2em 2em;
+  box-shadow: inset 0px -25px 35px -26px lightgrey;
 
   div.item {
     display: inline-block;
-    width: 100%; vertical-align: top;
+    width: 100%; vertical-align: middle;
     box-sizing: border-box;
 
     white-space: normal;
