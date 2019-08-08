@@ -25,4 +25,11 @@ div.post {
     font-family: $typ-sans;
     font-size: 12px;
   }
+
+  img {
+    display: block;
+    margin: 2.5em auto;
+    max-width: 100%;
+    border: 1px solid slategray;
+  }
 }
